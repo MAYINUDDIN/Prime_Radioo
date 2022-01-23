@@ -1,0 +1,88 @@
+.management .m {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(85, 98, 112, 0.08);
+  padding: 30px;
+  border-radius: 4px;
+  background: white;
+}
+
+.management .m .pic {
+  overflow: hidden;
+  width: 140px;
+  border-radius: 4px;
+}
+
+.management .m .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.management .m:hover img {
+  transform: scale(1.1);
+}
+
+.management .m .m-info {
+  padding-left: 30px;
+}
+
+.management .m h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #556270;
+}
+
+.management .m span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.management .m span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #dee2e6;
+  bottom: 0;
+  left: 0;
+}
+
+.management .m p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.management .m .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.management .m .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  background: #8795a4;
+}
+
+.management .m .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.management .m .social a:hover {
+  background: #d9232d;
+}
+
+.management .m .social a + a {
+  margin-left: 8px;
+}
